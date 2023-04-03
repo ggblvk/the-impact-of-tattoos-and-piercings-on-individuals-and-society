@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Влияние тату и пирсинга на подростка</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #FDD9B5;
+			background-size: cover;
+			color: white;
+
+		}
+		header {
+			background-color: #f79b60;
+			color: white;
+			padding: 10px;
+			text-align: center;
+		}
+
+		h1 {
+			margin-top: 25px;
+			text-align: left;
+			text-shadow: 2px 2px 2px #000000;
+		}
+
+		h2 {
+			margin-top: 30px;
+			margin-bottom: 20px;
+		}
+
+		article {
+			margin: 20px;
+			padding: 20px;
+			border: 4px solid #f79b60;
+			border-radius: 20px;
+		}
+
+		button {
+			background-color: #D27C5F;
+			border: none;
+			color: #fff;
+			padding: 10px 20px;
+			border-radius: 10px;
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+		}
+
+		button:hover {
+			background-color: #FFB273;
+		}
+
+		.hide {
+			display: none;
+		}
+		/*Телефон*/ 
+		@media (max-width: 767px){
+		.my-text {
+    		display: none;
+  		}
+  		.my-button:focus + .my-text {
+    		display: block;
+  		}
+  		}
+		#p1 {
+  			font-size: 20px;
+  			line-height: 1.6;
+  			padding: 20px;
+  			background-color: #D27C5F;
+  			background-color: rgba(0, 0, 0, 0.65);
+  			border: 4px solid #f79b60;
+  			border-radius: 5px;
+  			box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  			width: auto; 
+  			height: 320px;
+		}
+		#p2 {
+  			font-size: 20px;
+  			line-height: 1.6;
+  			padding: 20px;
+  			background-color: #D27C5F;
+  			background-color: rgba(0, 0, 0, 0.65);
+  			border: 4px solid #f79b60;
+  			border-radius: 5px;
+  			box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  			width: auto; 
+  			height: 820px;
+		}
+        img[src='Images/3.jpg'] {
+    		width: 36%;
+    		height: auto;
+			margin-top: 40px;
+  		}
+  		img[src='Images/4.jpg'] {
+    		width: 54%;
+    		height: auto;
+			margin-top: 45px;
+  		}
+		#p3 {
+  			font-size: 20px;
+  			line-height: 1.6;
+  			padding: 20px;
+  			background-color: #D27C5F;
+  			background-color: rgba(0, 0, 0, 0.65);
+  			border: 4px solid #f79b60;
+  			border-radius: 5px;
+  			box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  			width: auto; 
+  			height: 325px;
+		}
+		#p4 {
+  			font-size: 20px;
+  			line-height: 1.6;
+  			padding: 20px;
+  			background-color: #D27C5F;
+  			background-color: rgba(0, 0, 0, 0.65);
+  			border: 4px solid #f79b60;
+  			border-radius: 5px;
+  			box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+			width: auto; 
+  			height: 850px;
+		}
+		img[src='Images/1.jpg'] {
+    		width: 36%;
+    		height: auto;
+            margin-top: -50px;
+  		}
+  		img[src='Images/2.jpg'] {
+    		width: 44%;
+    		height: auto;
+            margin-top: -20px;
+  		}
+		#p5 {
+  			font-size: 20px;
+  			line-height: 2.1;
+  			padding: 20px;
+  			background-color: #D27C5F;
+  			background-color: rgba(0, 0, 0, 0.65);
+  			border: 4px solid #f79b60;
+  			border-radius: 5px;
+  			box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+			width: auto; 
+  			height: 1050px;
+		}
+  		@media (min-width: 992px)/*ПК*/ {
+  		#p1 {
+  			font-size: 20px;
+  			line-height: 1.6;
+  			padding: 20px;
+  			background-color: #D27C5F;
+  			background-color: rgba(0, 0, 0, 0.65);
+  			border: 4px solid #f79b60;
+  			border-radius: 5px;
+  			box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  			width: auto; 
+  			height: 180px;
+		}
+		#p2 {
+  			font-size: 20px;
+  			line-height: 1.6;
+  			padding: 20px;
+  			background-color: #D27C5F;
+  			background-color: rgba(0, 0, 0, 0.65);
+  			border: 4px solid #f79b60;
+  			border-radius: 5px;
+  			box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  			width: 1700px; 
+  			height: 700px;
+		}
+		img[src='Images/3.jpg'] {
+    		width: 28%;
+    		height: auto;
+			margin-top: -25px;
+  		}
+  		img[src='Images/4.jpg'] {
+    		width: 42%;
+    		height: auto;
+			margin-top: 5px;
+  		}
+		#p3 {
+  			font-size: 20px;
+  			line-height: 1.6;
+  			padding: 20px;
+  			background-color: #D27C5F;
+  			background-color: rgba(0, 0, 0, 0.65);
+  			border: 4px solid #f79b60;
+  			border-radius: 5px;
+  			box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  			width: 1700px; 
+  			height: 200px;
+		}
+		#p4 {
+  			font-size: 20px;
+  			line-height: 1.6;
+  			padding: 20px;
+  			background-color: #D27C5F;
+  			background-color: rgba(0, 0, 0, 0.65);
+  			border: 4px solid #f79b60;
+  			border-radius: 5px;
+  			box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+			width: 1700px; 
+  			height: 600px;
+		}
+		img[src='Images/1.jpg'] {
+    		width: 32%;
+    		height: 58%;
+            margin-top: -130px;
+  		}
+  		img[src='Images/2.jpg'] {
+    		width: 34%;
+    		height: auto;
+            margin-top: -130px;
+		}
+		#p5 {
+  			font-size: 20px;
+  			line-height: 2.1;
+  			padding: 20px;
+  			background-color: #D27C5F;
+  			background-color: rgba(0, 0, 0, 0.65);
+  			border: 4px solid #f79b60;
+  			border-radius: 5px;
+  			box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+			width: 1700px; 
+  			height: 650px;
+		}
+	}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Влияние тату и пирсинга на подростка</h1>
+	</header>
+	<span class="my-class">
+	<article style="background-color: rgba(0, 0, 0, 0.65);">
+		<font size="4" color="#f79b60" face="Arial">
+		<h2>Понятие и состав татуировки</h2>
+		<p>Татуировка – рисунок на кожном покрове человека, нанесенный путем введения красителей на небольшую глубину при помощи специальной машинки с миниатюрными иголочками. Изображение остается на теле до конца жизни.</p>
+		<button id="btn1" onclick="toggle('p1')">Подробнее</button>
+		<p id="p1" class="hide">Состав красок и татуировок
+        В состав красок входят пигменты, которые состоят из органических и неорганических веществ. Чтобы ввести твердый пигмент в кожу с помощью иглы, необходим носитель. В качестве носителя может быть использован этиловый спирт, дистиллированная вода, метанол, гамамелис, пропиленгликоль, глицерин и сорбитол. Основным компонентом краски для татуировок обычно является оксид металла, нередко это медь, железо. А чтобы твердый пигмент и носитель смешивались однородно и не расслаивались, в состав краски входят различные загустители и стабилизаторы. Цвет вещества зависит от красящего пигмента, присутствующего в составе. 
+		</p>
+	</article>
+	</span>
+	<article style="background-color: rgba(0, 0, 0, 0.65)";>
+		<h2>Опасность татуировок</h2>
+		<p>С медицинской точки зрения – считать абсолютно безопасной ни одну татуировку нельзя.</p>
+		<button id="btn2" onclick="toggle('p2')">Подробнее</button>
+		<p id="p2" class="hide">Потенциальный вред:<br>
+        1.Во время нанесения татуировки можно занести тяжелые инфекционные заболевания. Такие как: ВИЧ, гепатит С и В. Данные заболевания на ранних этапах своего развития не дают никакой клинической симптоматики;<br>
+        2.Воспаление и нагноение раны. Это может произойти при неправильной стерилизации инструментов. А также занесение инфекции в зону татуировки может произойти в период заживления раны. Это произойдет в случае, если пациент неправильно ухаживает за зоной татуировки;<br>
+        3.Аллергическая реакция на компоненты краски;<br>
+        4.Аллергия на солнце;<br>
+        5.Различные болезни кожи. Например: рак кожи, псориаз и келоидные рубцы;<br>
+        Также существуют противопоказания к татуировкам:<br>
+        1.Постоянные: тромбоцитопения, гемофилия, ВИЧ, СПИД, гепатит, психические расстройства, эпилепсия, нарушение иммунитета, сахарный диабет 1 и 2 типа;<br>
+        2.Временные: Воспалительные и аллергические заболевания кожи; простудные заболевания и повышенная температура, для женщин – период беременности, кормления грудью и во время менструации; Алкогольное и наркотическое опьянение.<br>
+		<img src="Images/3.jpg" alt="Экология" style="float:left; margin-right:10px;float: right;">
+		<img src="Images/4.jpg" alt="Экология" style="float:left; margin-right:10px;">
+		</p>
+	</article>
+	<article style="background-color: rgba(0, 0, 0, 0.65);">
+		<h2>Что такое пирсинг</h2>
+		<p>Само слово «пирсинг» произошло от английского слова «прокалывать», что достаточно логично, учитывая принцип самой процедуры получения пирсинга.</p>
+		<button id="btn3" onclick="toggle('p3')">Подробнее</button>
+		<p id="p3" class="hide">Пирсинг являет собой декоративную модификацию человеческого тела путем прокалывания отдельных его участков.<br>
+        Выбор материала сережек- один из важнейших вопросов.<br>
+        Неправильно выбранный материал может вызвать аллергию вокруг пирсинга, препятствовать быстрому заживлению, окрашивать кожу и даже провоцировать инфекции в организме.<br> 
+        Для заживления раны подойдет гипоаллергенный титан. Он не подвержен влиянию окружающей среды и не окисляется. Не рекомендуется такие металлы как: медицинская сталь, золото, серебро, биопластик. 
+		 </p>
+	</article>
+	<article style="background-color: rgba(0, 0, 0, 0.65);">
+		<h2>Опасность пирсинга</h2>
+		<p>Попав в нервное окончание или сосуд при совершении прокола можно масштабно навредить организму.</p>
+		<button id="btn4" onclick="toggle('p4')">Подробнее</button>
+		<p id="p4" class="hide">Для того,чтобы этого не произошло,нужно основательно подойти к выбору места для сережки и мастеру.
+        Безусловно,самые опасные места для пирсинга находятся на голове,в частности, на лице.Высокий риск причинения вреда существует при прокалывании бровей и губ.Вокруг глаз очень тонкая кожа,максимальное количество сосудов и огромный риск неудачного прокола. Мало проколоть, нужно тщательно ухаживать за новым аксессуаром, дабы не занести инфекцию. Прокол брови,к примеру,может сопровождаться отечностью,покраснением и жжением.И только регулярная обработка раны поспособствует правильному заживлению. 
+        Пирсинг губ не менее опасен.На губах также сосредоточено огромное количество нервных окончаний и сосудов.Попадание иглы в них может обернуться катастрофой.Порой пирсинг может стать огромной проблемой,приводя даже к параличу лицевых мышц.<br>
+        Потенциальный вред: <br>
+        1.Аллергическая реакция;<br>
+        2.Заражение. Попадание бактерий и вирусов в рану;<br>
+		3.Нарушение кровообращения, рубцевание ткани;<br>
+		4.Эндокардит (воспаление внутренней оболочки сердца);<br>
+		5.Разрушение зубов при пирсинге губ и яз.<br>
+		<img src="Images/1.jpg" alt="Кибербезопасность" style="float:right; margin-right:10px;">
+		<img src="Images/2.jpg" alt="Терроризм" style="float:right;margin-right:10px;">
+</p>
+	</article>
+
+<script>
+	function toggle(id) {
+		var elem = document.getElementById(id);
+		if (elem.classList.contains('hide')) {
+			elem.classList.remove('hide');
+		} else {
+			elem.classList.add('hide');
+		}
+	}
+</script>
+</body>
+</html>
